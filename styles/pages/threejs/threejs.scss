@@ -1,0 +1,35 @@
+.threejs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow-x: hidden;
+    padding-top: 30%;
+
+    .threejs__intro {
+        overflow: hidden;
+        width: 100%;
+        font-size: 2em;
+        line-height: 1em;
+        text-align: center;
+
+        .threejs__intro__text {
+            margin-top: 20px;
+        }
+    }
+
+    .threejs__story {
+        position: relative;
+        height: 300vh;
+    }
+}
+
+
+.threejs__canvas__container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
